@@ -38,7 +38,7 @@ pipeline {
                 // Make sure the destination directory exists on the remote server
 
                 // Use 'rsync' to copy the build files to the remote server
-                sh "rsync -avz --delete./dist/Godfrey22152@your_remote_server:README.md"
+                sh "rsync -avz --delete./dist/Godfrey22152@git@github.com:Godfrey22152/Jenkins_Angular-Application.git:README.md"
             }
         }
     }
